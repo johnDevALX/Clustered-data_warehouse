@@ -12,7 +12,7 @@ services:
       - fx_deals
 
   clustered-data_warehouse:
-    image: fx-deals/app:0.0.1
+    image: ekenedian/fx-deals:1.0.0
     ports:
       - "5300:5200"
     deploy:
